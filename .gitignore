@@ -1,0 +1,70 @@
+# CMake build trees and generated project files
+/build*/
+/out/
+/cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+
+# MSVC and Visual Studio local state
+/.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.recipe
+*.tlog
+
+# Compiled binaries and crash dumps
+*.dll
+*.exe
+*.dmp
+*.mdmp
+
+# Runtime logs, traces, and profiling output
+*.log
+*.bin
+*.etl
+
+# Local game/session captures and save snapshots
+/captures/
+/forensic_captures/
+/forensic_selftest/
+/lightweight_captures/
+/save_backups/
+
+# Locally acquired diagnostic runtimes and external working copies
+/tools/ttd-runtime/
+/tools/vendor/
+
+# Redundant upstream source archive; the extracted Lua source is versioned
+/third_party/lua-5.4.9.tar.gz
+
+# Opt-in diagnostic marker files
+*.enabled
+*.disabled
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+/.pytest_cache/
+/.venv/
+/venv/
+
+# Editor and operating-system metadata
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.tmp
